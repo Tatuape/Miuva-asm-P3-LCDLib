@@ -1,0 +1,75 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Mon Dec 12 13:46:20 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00028a
+                   .cinit    romdata   0x00028a    program   0x000002
+.config_300001_BUILD/DEFAULT/PRODUCTION/LCD_LIB    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/LCD_LIB    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/LCD_LIB    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/LCD_LIB    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/LCD_LIB    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00028b      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+            657 out of 33048 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BUCLE   0x000082    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\LCD_lib.asm
+                   INICIO   0x000004    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\LCD_lib.asm
+                 LCD_Char   0x000190    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                LCD_Clear   0x0001be    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                 LCD_GoTo   0x000206    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                 LCD_Home   0x0001e2    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                 LCD_Init   0x000086    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                 Ret100us   0x00027e    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                  Ret15ms   0x00023a    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                  Ret40ms   0x00024c    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                  Ret40us   0x000286    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                 Ret4_1ms   0x000270    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                   Ret5ms   0x00025e    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+             Retardo100us   0x00027a    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+              Retardo15ms   0x000232    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+              Retardo40ms   0x000244    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+              Retardo40us   0x000282    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+             Retardo4_1ms   0x000268    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+               Retardo5ms   0x000256    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000004    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\LCD_lib.asm
+                    BUCLE   0x000082    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\LCD_lib.asm
+                 LCD_Init   0x000086    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                 LCD_Char   0x000190    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                LCD_Clear   0x0001be    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                 LCD_Home   0x0001e2    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                 LCD_GoTo   0x000206    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+              Retardo15ms   0x000232    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                  Ret15ms   0x00023a    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+              Retardo40ms   0x000244    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                  Ret40ms   0x00024c    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+               Retardo5ms   0x000256    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                   Ret5ms   0x00025e    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+             Retardo4_1ms   0x000268    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                 Ret4_1ms   0x000270    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+             Retardo100us   0x00027a    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                 Ret100us   0x00027e    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+              Retardo40us   0x000282    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+                  Ret40us   0x000286    program     static D:\MPLABXProjects\Practicas_curso_basico\3_LCD_lib.X\MiuvaLCD.inc
+
+
